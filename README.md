@@ -23,7 +23,7 @@ Other clues :
   2b) The table() command on y_ dataset said the values ranged from       1 through 6 and so are the acitivities (from activity_labels       .txt)
   2c) The table() command on subject_test dataset said that there        are 9 unique values. So that must be the id of the 'test'          subjects as 30% of a total of 30 subjects is 9. The original       data's README says 30% of the total subjects were considered       for 'test'.
 
-3) So we have 3 'test' tables of dimensions 2947*1 (subject), 2947*1 (activity) and 2947*561 (feature values). We have 3 similar tables for the 'train' subjects with the only difference being the number of observations which is 7352.
+3) So we have 3 'test' tables of dimensions 2947 by 1 (subject), 2947 by 1 (activity) and 2947 by 561 (feature values). We have 3 similar tables for the 'train' subjects with the only difference being the number of observations which is 7352.
 
 4) Rename the column name of the _subject tables to "subject"
 
