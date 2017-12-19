@@ -4,7 +4,7 @@ Input:
 Please ensure that the zip file from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is UNZIPPED into your working directory.
 
 Output:
-On running the script, you should have a new file ss_tidy_data.txt written into your working directory.
+On running the script (the R file MUST be in the same directory as the unzipped data), you should have a new file ss_tidy_data.txt written into your working directory.
 
 
 General comments:
